@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #E91E63;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #C2185B;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #E91E63;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-bottom: 2px solid #C2185B;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E91E63;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .logout-btn {
+    background-color: #fff;
+    color: #E91E63;
+    border: 1px solid #E91E63;
+  }
+  
+  .logout-btn:hover {
+    background-color: #E91E63;
+    color: #fff;
+  }
+  
